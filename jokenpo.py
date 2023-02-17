@@ -27,7 +27,7 @@ if player == 'Tesoura' and pc == 'Pedra':
 elif player == 'Pedra' and pc == 'Tesoura':
     print('TESOURA!')
     sleep(1)
-    print ('\033[1;37[mEu perdi, parabéns, você ganhou :(\033[m ')
+    print ('\033[1;37mEu perdi, parabéns, você ganhou :(\033[m ')
 elif player == 'Papel' and pc == 'Pedra':
     print ('PEDRA!')
     sleep(1)
